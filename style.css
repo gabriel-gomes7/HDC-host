@@ -176,3 +176,44 @@ p{
 .plan .recommended{
     background-color: #f45c57;
 }
+/* searh domain */
+.searhdomain-container {
+    background-color: #34454e;
+    padding: 5rem 0;
+    text-align: center;
+}
+.searhdomain-container h2 {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.searhdomain-container p {
+    font-size: 24px;
+    color: #d5d5d5;
+    margin-bottom: 25px;
+}
+.searhdomain-container input {
+    display:block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.searhdomain-container input[type="text"] {
+    width: 60%;
+    padding: 20px;
+    font-size:20px;
+    margin-bottom:25px;
+}
+.searhdomain-container input[type="submit"] {
+    background-color: #2cc76a;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .8;
+
+}
+.searhdomain-container input[type="submit"]:hover {
+    opacity: 1;
+        
+}
